@@ -19,6 +19,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 And then from the root directory run, for example
+
 ```uv run 01/solution.py```
 
 Replace the `01` with whatever day's solution you'd like to run.
